@@ -8,6 +8,7 @@ $route['api/sembuh']['GET']          = 'Pantaucorona/sembuh';
 $route['api/global']['GET']          = 'Pantaucorona/dunia';
 $route['api/indonesia']['GET']          = 'Pantaucorona/indonesia';
 $route['api/indonesia/provinsi']['GET']          = 'Pantaucorona/provinsi';
+$route['api/hariini']['GET']          = 'Pantaucorona/hariini';
 
 
 $route['api/user/(:num)']['GET']    = 'UserController/get/$1';

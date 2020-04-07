@@ -29,6 +29,10 @@ class Pantaucorona extends CI_Controller {
 
     public function indonesia(){
         return $this->response($this->u->indonesia());
+	}
+	
+	public function hariini(){
+        return $this->response($this->u->hariini());
     }
 
     public function provinsi(){

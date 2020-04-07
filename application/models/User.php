@@ -27,6 +27,14 @@ class User extends CI_Model
         return $object;
     }
 
+    public function hariini(){
+        $sumber = 'https://corona-api.com/countries/ID';
+        $konten = file_get_contents($sumber);
+        $object = json_decode($konten, true);
+
+        return $object;
+    }
+
     public function provinsi(){
         $sumber = 'http://api.kawalcorona.com/indonesia/provinsi';
         $konten = file_get_contents($sumber);
